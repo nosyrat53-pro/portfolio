@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Nunito:wght@500&family=PT+Sans:ital,wght@1,700&family=Teko:wght@500&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Nunito', sans-serif;;
+  font-size: 18px;
+  letter-spacing: .5px;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+/* body, html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
+} */
+code {
+  font-family: 'Barlow';
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 ;
+}
+
+::selection {
+  background: #00aaff;
+  color: #000;
+  text-shadow: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #111111;
+}
+::-webkit-scrollbar-track-piece {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #5bccf6;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0090f0;
+}
