@@ -20,7 +20,7 @@ function App() {
       <AnimatedBg />
       <Loading />
      
-      <BgMusic />
+      {/* <BgMusic /> */}
       <NavBar />
       <ScrollDown />
       <SideBar />

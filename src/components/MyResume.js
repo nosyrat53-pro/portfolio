@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react';
 import styled from 'styled-components';
-import resumePdf from '../assets/resume.pdf';
+import resumePdf from '../assets/Mohammed_Al_Nosyrat_Front_End_Developer.pdf';
 import downArrow  from '../assets/downarrow.svg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -21,8 +21,8 @@ const MyResume = (props) => {
     },[]);
     return <Section>
             <Container>
-                <Content>
-                    <Title data-aos="zoom-in">My resume is right over here 
+                <Content id="contact">
+                    <Title id='resume' data-aos="zoom-in">My resume is right over here 
 
                     </Title>
                         <DownArrow class="downArrow bounce">

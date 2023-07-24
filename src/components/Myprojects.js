@@ -3,6 +3,8 @@ import styled from 'styled-components';
 import Tilt from 'react-tilt';
 import youtubePhoto from '../assets/youtubeclone.png';
 import viewIcon from '../assets/viewicon.svg';
+import mywayImage from '../assets/myway.jpg';
+import leadersImage from '../assets/leaders.jpg';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 
@@ -26,15 +28,15 @@ const MyProjects = (props) => {
         <Tilt className="Tilt" options={{ max : 35 }} >
         <ProjectName>
             <ProjectNameContent>
-                <ProjectTitle>Youtube clone</ProjectTitle>
-                <ViewButton>
+                <ProjectTitle>Myway</ProjectTitle>
+                <ViewButton href='https://myway.edu.sy/' target='_blank'>
                     View 
                     <img src={viewIcon} />
                 </ViewButton>
             </ProjectNameContent>
         </ProjectName>
             <Project className="Tilt-inner"> 
-                <img src={youtubePhoto}/>
+                <img src={mywayImage}/>
             </Project>
         </Tilt>
         
@@ -42,48 +44,19 @@ const MyProjects = (props) => {
         <Tilt className="Tilt" options={{ max : 35 }}  >
         <ProjectName>
             <ProjectNameContent>
-                <ProjectTitle>Youtube clone</ProjectTitle>
-                <ViewButton>
+                <ProjectTitle>Leaders</ProjectTitle>
+                <ViewButton  href='https://leaderstranslation.com/' target='_blank'>
                     View 
                     <img src={viewIcon} />
                 </ViewButton>
             </ProjectNameContent>
         </ProjectName>
             <Project className="Tilt-inner"> 
-                <img src={youtubePhoto}/>
+                <img src={leadersImage}/>
             </Project>
         </Tilt>
 
-        <Tilt className="Tilt" options={{ max : 35 }}  >
-        <ProjectName>
-            <ProjectNameContent>
-                <ProjectTitle>Youtube clone</ProjectTitle>
-                <ViewButton>
-                    View 
-                    <img src={viewIcon} />
-                </ViewButton>
-            </ProjectNameContent>
-        </ProjectName>
-            <Project className="Tilt-inner"> 
-                <img src={youtubePhoto}/>
-            </Project>
-        </Tilt>
 
-        
-        <Tilt className="Tilt" options={{ max : 35 }}  >
-        <ProjectName>
-            <ProjectNameContent>
-                <ProjectTitle>Youtube clone</ProjectTitle>
-                <ViewButton>
-                    View 
-                    <img src={viewIcon} />
-                </ViewButton>
-            </ProjectNameContent>
-        </ProjectName>
-            <Project className="Tilt-inner"> 
-                <img src={youtubePhoto}/>
-            </Project>
-        </Tilt>
         </Content>
 
 

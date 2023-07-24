@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import Wave from '../assets/wave.svg';
 
 const ContactMe = (props) => {
-    return <Section>
+    return <Section id="contact">
         <img src={Wave} />
         </Section>;
 };

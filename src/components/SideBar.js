@@ -58,11 +58,11 @@ const SideBar = (props) => {
                     <Icon src={skillsIcon}  />
                     <OptionText>My skills</OptionText>
                 </Item>
-                <Item  onClick={() => dispatch(close())}>
+                <Item  onClick={() => dispatch(close())} href="#resume">
                     <Icon src={resumeIcon}  />
                     <OptionText>Resume</OptionText>
                 </Item>
-                <Item lastItem={true}  onClick={() => dispatch(close())}>
+                <Item lastItem={true}  onClick={() => dispatch(close())} href="#contact">
                     <Icon src={contactIcon}  />
                     <OptionText>Contact me</OptionText>
                 </Item>

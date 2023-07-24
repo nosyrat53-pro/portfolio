@@ -56,7 +56,7 @@ const FirstLook = () => {
             </Paragraph>
 
             <HeadLine>
-                Junior React.js Developer
+                React.js Developer
             </HeadLine>
 
             <Paragraph mb>
